@@ -1,0 +1,102 @@
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(51, 59, 84) 0%, rgb(78, 52, 72) 50%, rgba(134, 152, 213, 0.8) 100%);
+  /* Vertical center */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding-left: 40%;
+}
+
+.form-title { 
+  font-size: 50px; 
+  font-weight: 800; 
+  letter-spacing: 0.5px; 
+  color: #d3bebe; 
+  padding-bottom: 12px; 
+}
+
+.form-subtitle {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #8c8484;
+  padding-bottom: 30px;
+}
+
+.auth {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 12px;
+}
+.auth-label {
+  position: absolute;
+  top: 8px;
+  left: 110px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(175, 175, 175);
+  width: 100px;
+}
+.auth-input {
+  background-color: #ffffff;
+  color: #3e404b;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 18px 12px 18px;
+  width: calc(100% - 18px - 18px);
+  margin-bottom: 12px;
+  transition: 0.5s;
+}
+
+.auth-input:hover {
+  background-color: rgb(194, 221, 246);
+}
+
+.auth-button {
+  font-size: 16px;
+  font-weight: 900;
+  width: 100%;
+  height: 53px;
+  color: rgb(159, 159, 159);
+  background-color: #414141;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .44s ease;
+  -webkit-transition: all .44s ease;
+  -moz-transition: all .44s ease;
+}
+.auth-button:hover { filter: brightness(160%); }
+
+.chat-wrapper {
+  height: 80vh; 
+  width: 80%;
+  margin-left: 10%; 
+  color: white; 
+  background: rgb(43, 47, 60);
+}
+
+.ce-chat-engine {
+  background-color: #8c8484;
+}
